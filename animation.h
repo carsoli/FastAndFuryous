@@ -1,0 +1,2 @@
+bool animateScene();
+void animateCamera();

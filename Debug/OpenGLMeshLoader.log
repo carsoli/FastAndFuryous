@@ -1,0 +1,29 @@
+﻿Build started 12/26/2017 11:32:12 AM.
+     1>Project "E:\Work\Graphics Project\OpenGLMeshLoader\OpenGLMeshLoader.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Work\Graphics Project\OpenGLMeshLoader\Debug\\.." /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OpenGLMeshLoader.cpp
+         OpenGLMeshLoader.cpp
+     1>e:\work\graphics project\openglmeshloader\openglmeshloader.cpp(63): warning C4800: 'float' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\graphics project\openglmeshloader\openglmeshloader.cpp(264): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Work\Graphics Project\OpenGLMeshLoader\Debug\OpenGLMeshLoader.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\Work\Graphics Project\OpenGLMeshLoader\Debug\\.." glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Work\Graphics Project\OpenGLMeshLoader\Debug\OpenGLMeshLoader.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Work\Graphics Project\OpenGLMeshLoader\Debug\OpenGLMeshLoader.lib" /MACHINE:X86 Debug\animation.obj
+         Debug\camera.obj
+         Debug\GLTexture.obj
+         Debug\models.obj
+         Debug\Model_3DS.obj
+         Debug\obstacles.obj
+         Debug\OpenGLMeshLoader.obj
+         Debug\scene.obj
+         Debug\sceneModels.obj
+         Debug\TextureBuilder.obj
+         glaux.lib
+         glew32.lib
+         glut32.lib
+     1>animation.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         OpenGLMeshLoader.vcxproj -> E:\Work\Graphics Project\OpenGLMeshLoader\Debug\OpenGLMeshLoader.exe
+     1>Done Building Project "E:\Work\Graphics Project\OpenGLMeshLoader\OpenGLMeshLoader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.39

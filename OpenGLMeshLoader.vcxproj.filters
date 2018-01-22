@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="glaux.dll" />
+    <None Include="glew32.dll" />
+    <None Include=".DS_Store" />
+    <None Include="models\rock\rock.3ds" />
+    <None Include="models\cactus\cactus.3ds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6c45f8fb-d770-4f7d-b3c8-da1caae30faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{20bcb72d-7769-48b8-ab13-db35047ab7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7202bdcb-f5fd-45ba-a360-d78d8317aa29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_3DS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLMeshLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obstacles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneModels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="models.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_3DS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glaux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="models.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obstacles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneModels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glaux.lib" />
+    <Library Include="glut32.lib" />
+    <Library Include="glew32.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\rails.bmp" />
+    <Image Include="textures\grass.bmp" />
+    <Image Include="textures\blend2.bmp" />
+    <Image Include="textures\sky.bmp" />
+    <Image Include="textures\blend1.bmp" />
+    <Image Include="textures\road.bmp" />
+    <Image Include="models\cactus\cactus1.bmp" />
+    <Image Include="models\cactus\cactus1.png" />
+    <Image Include="models\rock\rock.jpg" />
+    <Image Include="models\rock\rock1.bmp" />
+    <Image Include="textures\tunnel.bmp" />
+    <Image Include="textures\bomb.bmp" />
+  </ItemGroup>
+</Project>
